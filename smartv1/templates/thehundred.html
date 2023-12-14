@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Training</title>
+    <style>
+        .container {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+            background-color: #000000;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <br>
+    <a href="http://127.0.0.1:5000/"><img src="../static/img/smart.png" height="10%"></a><br>
+    <p>
+        <a href="http://127.0.0.1:5000/agachamento">
+            <font size="3" face="Helvetica">AGACHAMENTO</font>
+        </a>
+
+        -
+
+        <a href="http://127.0.0.1:5000/roscaalternada">
+            <font size="3" face="Helvetica">ROSCA ALTERNADA</font>
+        </a>
+
+        -
+
+        <a href="http://127.0.0.1:5000/thehundred">
+            <font size="3" face="Helvetica" color="#ff7000">THE HUNDREAD</font>
+        </a>
+    </p>
+    <p>
+        <font size="3" face="Helvetica" color="white">POSICIONE-SE DE LADO PARA A CÂMERA E EXECUTE O EXERCÍCIO
+        </font>
+    </p>
+    <img src="{{ url_for('video_thehundred') }}">
+
+
+
+</body>
+
+</html>
