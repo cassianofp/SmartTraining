@@ -17,7 +17,7 @@ Palavras-chave: Exercícios físicos. lesões. aplicação web. pose estimation.
 Requisitos:
  - Python 3.11.5
  - MediaPipe 0.10.8 (E todas as suas dependências padrão)
- - Flask Framework 0.10
+ - Framework Flask 3.0.0
 
 Estudante: Cassiano de Freitas Tavora Pacheco
 
