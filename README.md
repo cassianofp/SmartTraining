@@ -18,3 +18,6 @@ Requisitos:
  - Python 3.11.5
  - MediaPipe 0.10.8 (E todas as suas dependências padrão)
  - Flask Framework 0.10
+
+Estudante: Cassiano de Freitas Tavora Pacheco
+Orientador: Prof. Dr. Rodolfo Migon Favaretto
